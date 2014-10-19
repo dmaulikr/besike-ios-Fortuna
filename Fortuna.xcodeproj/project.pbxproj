@@ -13,6 +13,8 @@
 		F8DCDE7419F3E87C003AC85B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DCDE7319F3E87C003AC85B /* Images.xcassets */; };
 		F8DCDE7719F3E87C003AC85B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8DCDE7519F3E87C003AC85B /* LaunchScreen.xib */; };
 		F8DCDE8319F3E87C003AC85B /* FortunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DCDE8219F3E87C003AC85B /* FortunaTests.swift */; };
+		F8DCDE8E19F3EC68003AC85B /* negativeQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = F8DCDE8C19F3EC68003AC85B /* negativeQuotes.json */; };
+		F8DCDE8F19F3EC68003AC85B /* positiveQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = F8DCDE8D19F3EC68003AC85B /* positiveQuotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F8DCDE7C19F3E87C003AC85B /* FortunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DCDE8119F3E87C003AC85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8DCDE8219F3E87C003AC85B /* FortunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunaTests.swift; sourceTree = "<group>"; };
+		F8DCDE8C19F3EC68003AC85B /* negativeQuotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = negativeQuotes.json; sourceTree = "<group>"; };
+		F8DCDE8D19F3EC68003AC85B /* positiveQuotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = positiveQuotes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,9 @@
 				F8DCDE7F19F3E87C003AC85B /* FortunaTests */,
 				F8DCDE6819F3E87C003AC85B /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		F8DCDE6819F3E87C003AC85B /* Products */ = {
 			isa = PBXGroup;
@@ -90,6 +96,8 @@
 		F8DCDE6A19F3E87C003AC85B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8DCDE8C19F3EC68003AC85B /* negativeQuotes.json */,
+				F8DCDE8D19F3EC68003AC85B /* positiveQuotes.json */,
 				F8DCDE6B19F3E87C003AC85B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +202,9 @@
 			files = (
 				F8DCDE7219F3E87C003AC85B /* Main.storyboard in Resources */,
 				F8DCDE7719F3E87C003AC85B /* LaunchScreen.xib in Resources */,
+				F8DCDE8F19F3EC68003AC85B /* positiveQuotes.json in Resources */,
 				F8DCDE7419F3E87C003AC85B /* Images.xcassets in Resources */,
+				F8DCDE8E19F3EC68003AC85B /* negativeQuotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
